@@ -31,7 +31,7 @@ void takeInput(Node* & root) {
 
 };
 
-int main() {
+/*int main() {
     
     Node* newNode = NULL;
 	cout << "Enter the number of nodes in the tree: ";
@@ -39,4 +39,4 @@ int main() {
     levelOrder(newNode);
 
     return 0;
-}
+}*/
