@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#include "../include/Node.hpp"
-#include "../include/levelOrder.hpp"
+#include "../../include/Node.hpp"
+#include "../../include/levelOrder.hpp"
 
 using namespace std;
 
@@ -31,12 +31,3 @@ void takeInput(Node* & root) {
 
 };
 
-/*int main() {
-    
-    Node* newNode = NULL;
-	cout << "Enter the number of nodes in the tree: ";
-    takeInput(newNode);
-    levelOrder(newNode);
-
-    return 0;
-}*/
